@@ -1,0 +1,44 @@
+/* Custom styles for AnythingDeploy */
+
+.contributor-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  padding: 0.25rem 0.75rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.contributor-badge img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.contributor-badge a {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+}
+
+.contributor-badge a:hover {
+  text-decoration: underline;
+}
+
+.contributors-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.contributors-section h3 {
+  margin-bottom: 1rem;
+}
+
+.contributors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
