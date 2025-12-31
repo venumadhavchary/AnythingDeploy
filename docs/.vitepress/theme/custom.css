@@ -1,5 +1,14 @@
 /* Custom styles for AnythingDeploy */
 
+/* Header site name with gradient color */
+.VPNavBarTitle .title {
+  background: linear-gradient(120deg, #646cff 0%, #747bff 50%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+}
+
 .contributor-badge {
   display: inline-flex;
   align-items: center;

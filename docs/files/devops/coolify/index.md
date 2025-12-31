@@ -1,6 +1,7 @@
 ---
-title: Coolify Deployment Guides
-description: Comprehensive guides for deploying with Coolify
+title: Coolify Deployment Guides - Self-Hosted Deployment Platform
+description: Comprehensive guides for deploying applications with Coolify. Learn Docker deployment, auto-deploy setup, and self-hosted platform management.
+keywords: coolify, coolify guides, self-hosted deployment, docker deployment platform, coolify tutorial
 ---
 
 # Coolify Deployment Guides

@@ -1,6 +1,7 @@
 ---
-title: Deployment Guides
-description: Browse all deployment guides by category
+title: Deployment Guides - Deploy Anything, Anywhere
+description: Browse comprehensive deployment guides organized by category. Frontend, backend, full stack, and DevOps deployment guides for React, Node.js, Docker, Coolify, and more.
+keywords: deployment guides, frontend deployment, backend deployment, docker deployment, coolify deployment, react deployment, nodejs deployment
 ---
 
 # Deployment Guides

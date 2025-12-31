@@ -1,3 +1,9 @@
+---
+title: Contributing to AnythingDeploy
+description: Learn how to contribute to AnythingDeploy. Add deployment guides, improve existing content, and help developers deploy their applications.
+keywords: contribute, open source, deployment guides, github, pull request
+---
+
 # Contributing to AnythingDeploy
 
 Thank you for your interest in contributing to AnythingDeploy! This project is open source and welcomes contributions from the community.

@@ -1,6 +1,7 @@
 ---
-title: Auto Deploy with Git Push
-description: Set up automatic deployments when you push to Git using Coolify
+title: Auto Deploy with Git Push - Coolify Setup Guide
+description: Set up automatic deployments when you push to Git using Coolify. Learn how to configure webhooks, branch strategies, and continuous deployment workflows.
+keywords: auto deploy, git webhook, coolify auto deploy, continuous deployment, git push deploy, coolify webhook
 contributors:
   - name: Your Name
     github: yourusername
@@ -134,7 +135,7 @@ If something goes wrong:
 ## Next Steps
 
 - [Deploy to Coolify Guide](/files/devops/coolify/deploy-to-coolify)
-- [Docker Optimization](/files/devops/docker/docker-optimization)
+- [Docker Guides](/files/devops/docker/)
 
 ## Contributors
 

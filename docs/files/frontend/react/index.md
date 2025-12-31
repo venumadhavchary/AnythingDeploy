@@ -1,6 +1,7 @@
 ---
-title: React Deployment Guides
-description: Deployment guides for React applications
+title: React Deployment Guides - Deploy React Apps
+description: Comprehensive guides for deploying React applications to various platforms including Coolify, Vercel, Netlify, and more.
+keywords: react deployment, deploy react app, react build, react production, react hosting
 ---
 
 # React Deployment Guides
@@ -10,8 +11,7 @@ Deploy your React applications to various platforms with our comprehensive guide
 ## Available Guides
 
 - [Deploy React to Coolify](/files/devops/coolify/deploy-to-coolify) - Using Coolify
-- [Deploy React to Vercel](/files/frontend/react/deploy-to-vercel) - Coming soon
-- [Deploy React to Netlify](/files/frontend/react/deploy-to-netlify) - Coming soon
+- Coming soon: Vercel, Netlify deployment guides
 
 ## Quick Start
 

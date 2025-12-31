@@ -1,6 +1,8 @@
 ---
 layout: home
-
+title: AnythingDeploy - Deploy Anything, Anywhere
+description: Comprehensive deployment guides for developers. Step-by-step guides for deploying to Coolify, Docker, Vercel, Netlify, AWS, and more platforms.
+keywords: deployment, docker, coolify, vercel, netlify, devops, deployment guides, how to deploy, react deployment, nodejs deployment
 hero:
   name: "AnythingDeploy"
   text: "Deploy Anything, Anywhere"
@@ -37,5 +39,5 @@ Browse deployment guides by category:
 
 - [Deploy to Coolify](/files/devops/coolify/deploy-to-coolify)
 - [Auto Deploy with Git](/files/devops/coolify/auto-deploy-setup)
-- [Docker Deployment](/files/devops/docker/docker-basics)
+- [Docker Deployment](/files/devops/docker/)
 

@@ -1,6 +1,7 @@
 ---
-title: Deploy AnythingDeploy Itself
-description: How to deploy this documentation site to Coolify
+title: Deploy AnythingDeploy Documentation Site to Coolify
+description: Step-by-step guide to deploying the AnythingDeploy VitePress documentation site to Coolify. Learn how to deploy static sites with buildpacks and Docker.
+keywords: vitepress deployment, documentation site deployment, static site deployment, coolify vitepress, deploy docs site
 contributors:
   - name: Your Name
     github: yourusername

@@ -1,6 +1,7 @@
 ---
-title: Deploy to Coolify
-description: Complete guide to deploying your application using Coolify
+title: Deploy to Coolify - Complete Deployment Guide
+description: Step-by-step guide to deploying your application using Coolify. Learn how to deploy with Docker, configure environment variables, set up custom domains, and more.
+keywords: coolify, coolify deployment, docker deployment, self-hosted deployment, deploy to coolify, coolify tutorial
 contributors:
   - name: Your Name
     github: yourusername
@@ -94,7 +95,7 @@ Add environment variables in Coolify dashboard:
 ## Next Steps
 
 - [Set up Auto Deploy with Git](/files/devops/coolify/auto-deploy-setup)
-- [Configure Docker for your app](/files/devops/docker/docker-basics)
+- [Configure Docker for your app](/files/devops/docker/)
 
 ## Contributors
 
