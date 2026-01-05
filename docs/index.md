@@ -40,4 +40,4 @@ Browse deployment guides by category:
 - [Deploy to Coolify](/files/devops/coolify/deploy-to-coolify)
 - [Auto Deploy with Git](/files/devops/coolify/auto-deploy-setup)
 - [Docker Deployment](/files/devops/docker/)
-
+- [Laravel Deplyoment](/files/laravel/laravel_on_coolify_with_docker)
