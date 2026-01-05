@@ -42,3 +42,4 @@ If you discover a security vulnerability, please:
 
 Run `npm audit` regularly to check for vulnerabilities in dependencies.
 
+
