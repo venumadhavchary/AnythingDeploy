@@ -38,6 +38,10 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#646cff' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     
+    // Plausible Analytics
+    ['script', { defer: '', 'data-domain': 'anythingdeploy.thechary.dev', src: 'https://plausible.thechary.dev/js/script.hash.outbound-links.pageview-props.tagged-events.js' }],
+    ['script', {}, 'window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }'],
+
     // Structured Data (JSON-LD)
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       '@context': 'https://schema.org',
