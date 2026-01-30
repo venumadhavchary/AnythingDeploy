@@ -102,7 +102,15 @@ export default defineConfig({
           text: 'DevOps',
           collapsed: false,
           items: [
-            { text: 'Laravel', link: '/files/devops/laravel/' },
+            { 
+              text: 'Laravel', 
+              collapsed: false,
+              items: [
+                { text: 'Overview', link: '/files/devops/laravel/' },
+                { text: 'Laravel on Coolify with Docker', link: '/files/devops/laravel/laravel_on_coolify_with_docker' },
+                { text: 'Laravel on Coolify with Nixpacks', link: '/files/devops/laravel/larvavel_on_coolify_nixpacks' }
+              ]
+            },
             // { text: 'Docker', link: '/files/devops/docker/' },
             // { 
             //   text: 'Coolify', 
