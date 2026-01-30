@@ -71,49 +71,49 @@ export default defineConfig({
     
     sidebar: {
       '/files/': [
-        {
-          text: 'Frontend',
-          collapsed: false,
-          items: [
-            { text: 'React', link: '/files/frontend/react/' },
-            { text: 'Next.js', link: '/files/frontend/nextjs/' },
-            { text: 'Vue', link: '/files/frontend/vue/' },
-            { text: 'Vite', link: '/files/frontend/vite/' }
-          ]
-        },
-        {
-          text: 'Backend',
-          collapsed: false,
-          items: [
-            { text: 'Node.js', link: '/files/backend/nodejs/' },
-            { text: 'Python', link: '/files/backend/python/' },
-            { text: 'Go', link: '/files/backend/go/' }
-          ]
-        },
-        {
-          text: 'Full Stack',
-          collapsed: false,
-          items: [
-            { text: 'Next.js Full Stack', link: '/files/fullstack/nextjs/' },
-            { text: 'MERN Stack', link: '/files/fullstack/mern/' }
-          ]
-        },
+        // {
+        //   text: 'Frontend',
+        //   collapsed: false,
+        //   items: [
+        //     { text: 'React', link: '/files/frontend/react/' },
+        //     { text: 'Next.js', link: '/files/frontend/nextjs/' },
+        //     { text: 'Vue', link: '/files/frontend/vue/' },
+        //     { text: 'Vite', link: '/files/frontend/vite/' }
+        //   ]
+        // },
+        // {
+        //   text: 'Backend',
+        //   collapsed: false,
+        //   items: [
+        //     { text: 'Node.js', link: '/files/backend/nodejs/' },
+        //     { text: 'Python', link: '/files/backend/python/' },
+        //     { text: 'Go', link: '/files/backend/go/' }
+        //   ]
+        // },
+        // {
+        //   text: 'Full Stack',
+        //   collapsed: false,
+        //   items: [
+        //     { text: 'Next.js Full Stack', link: '/files/fullstack/nextjs/' },
+        //     { text: 'MERN Stack', link: '/files/fullstack/mern/' }
+        //   ]
+        // },
         {
           text: 'DevOps',
           collapsed: false,
           items: [
             { text: 'Laravel', link: '/files/devops/laravel/' },
-            { text: 'Docker', link: '/files/devops/docker/' },
-            { 
-              text: 'Coolify', 
-              collapsed: false,
-              items: [
-                { text: 'Deploy to Coolify', link: '/files/devops/coolify/deploy-to-coolify' },
-                { text: 'Auto Deploy Setup', link: '/files/devops/coolify/auto-deploy-setup' },
-                { text: 'Deploy AnythingDeploy', link: '/files/devops/coolify/deploy-anythingdeploy' }
-              ]
-            },
-            { text: 'CI/CD', link: '/files/devops/cicd/' }
+            // { text: 'Docker', link: '/files/devops/docker/' },
+            // { 
+            //   text: 'Coolify', 
+            //   collapsed: false,
+            //   items: [
+            //     { text: 'Deploy to Coolify', link: '/files/devops/coolify/deploy-to-coolify' },
+            //     { text: 'Auto Deploy Setup', link: '/files/devops/coolify/auto-deploy-setup' },
+            //     { text: 'Deploy AnythingDeploy', link: '/files/devops/coolify/deploy-anythingdeploy' }
+            //   ]
+            // },
+            // { text: 'CI/CD', link: '/files/devops/cicd/' }
           ]
         }
       ]
