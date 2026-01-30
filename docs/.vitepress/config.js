@@ -102,6 +102,7 @@ export default defineConfig({
           text: 'DevOps',
           collapsed: false,
           items: [
+            { text: 'Laravel', link: '/files/devops/laravel/' },
             { text: 'Docker', link: '/files/devops/docker/' },
             { 
               text: 'Coolify', 
