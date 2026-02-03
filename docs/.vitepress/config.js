@@ -42,6 +42,15 @@ export default defineConfig({
     ['script', { defer: '', 'data-domain': 'anythingdeploy.thechary.dev', src: 'https://plausible.thechary.dev/js/script.hash.outbound-links.pageview-props.tagged-events.js' }],
     ['script', {}, 'window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }'],
 
+    // Google Analytics
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-TLPP89VZ45' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TLPP89VZ45');
+    `],
+
     // Structured Data (JSON-LD)
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       '@context': 'https://schema.org',
