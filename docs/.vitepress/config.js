@@ -7,6 +7,19 @@ export default defineConfig({
   title: config.site.title,
   description: config.site.description,
   
+  // Site URL for sitemap generation
+  base: '/',
+  sitemap: {
+    hostname: config.site.url,
+    transformItems: (items) => {
+      return items.map((item) => ({
+        ...item,
+        changefreq: 'weekly',
+        priority: item.url === config.site.url + '/' ? 1.0 : 0.8
+      }))
+    }
+  },
+  
   // Ignore dead links during build (for future guides)
   ignoreDeadLinks: true,
   
