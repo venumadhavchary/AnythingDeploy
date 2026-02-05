@@ -1,4 +1,4 @@
-# Laravel Deployment with Docker
+# How to Deploy Laravel Applications on Coolify with Docker: Complete Guide
 
 ## Step 1: Create New Project in Coolify
 

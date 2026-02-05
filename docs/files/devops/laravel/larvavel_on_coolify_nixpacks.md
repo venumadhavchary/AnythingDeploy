@@ -1,4 +1,4 @@
-# Laravel Deployment with Nixpacks
+# How to Deploy Laravel Applications on Coolify: Complete Guide
 
 ## Step 1: Create New Project in Coolify
 
