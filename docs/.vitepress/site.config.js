@@ -36,6 +36,7 @@ const rawConfig = {
   },
   site: {
     title: 'AnythingDeploy - Deploy Anything, Anywhere',
+    siteTitle: 'AnythingDeploy',
     description: 'Comprehensive deployment guides for developers. Deploy anything, anywhere with step-by-step guides for Coolify, Docker, Vercel, Netlify, and more.',
     url: 'https://anythingdeploy.in',
     twitter: '@anythingdeploy' // Optional: Add your Twitter handle
