@@ -35,9 +35,9 @@ const rawConfig = {
     repo: 'AnythingDeploy'
   },
   site: {
-    title: 'AnythingDeploy',
+    title: 'AnythingDeploy - Deploy Anything, Anywhere',
     description: 'Comprehensive deployment guides for developers. Deploy anything, anywhere with step-by-step guides for Coolify, Docker, Vercel, Netlify, and more.',
-    url: 'https://anythingdeploy.com', // Update with your actual domain when deployed
+    url: 'https://anythingdeploy.in',
     twitter: '@anythingdeploy' // Optional: Add your Twitter handle
   }
 }

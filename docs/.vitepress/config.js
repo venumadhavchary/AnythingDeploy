@@ -13,7 +13,7 @@ export default defineConfig({
   head: [
     // SEO Meta Tags
     ['meta', { name: 'author', content: config.github.username }],
-    ['meta', { name: 'keywords', content: 'deployment, docker, coolify, vercel, netlify, devops, deployment guides, how to deploy' }],
+    ['meta', { name: 'keywords', content: 'deployment, docker, coolify, vercel, netlify, devops, deployment guides, how to deploy, vps', }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['meta', { name: 'googlebot', content: 'index, follow' }],
     
@@ -38,8 +38,36 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#646cff' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     
+    // JSON-LD Structured Data for better Google recognition
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: config.site.title,
+      alternateName: 'AnythingDeploy',
+      url: config.site.url,
+      description: config.site.description,
+      publisher: {
+        '@type': 'Organization',
+        name: 'AnythingDeploy',
+        alternateName: 'AnythingDeploy - Deploy Anything, Anywhere',
+        url: config.site.url
+      },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${config.site.url}/search?q={search_term_string}`
+        },
+        'query-input': 'required name=search_term_string'
+      }
+    })],
+    
+    // Additional meta for better indexing
+    ['meta', { name: 'application-name', content: 'AnythingDeploy' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'AnythingDeploy' }],
+    
     // Plausible Analytics
-    ['script', { defer: '', 'data-domain': 'anythingdeploy.thechary.dev', src: 'https://plausible.thechary.dev/js/script.hash.outbound-links.pageview-props.tagged-events.js' }],
+    ['script', { defer: '', 'data-domain': 'anythingdeploy.in', src: 'https://plausible.thechary.dev/js/script.hash.outbound-links.pageview-props.tagged-events.js' }],
     ['script', {}, 'window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }'],
 
     // Google Analytics
