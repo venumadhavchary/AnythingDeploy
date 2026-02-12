@@ -136,6 +136,7 @@ export default defineConfig({
           text: 'DevOps',
           collapsed: false,
           items: [
+            { text: 'VPS Setup', link: '/files/devops/vpc/' },
             { 
               text: 'Laravel', 
               collapsed: false,
