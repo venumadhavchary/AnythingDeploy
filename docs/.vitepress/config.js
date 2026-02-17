@@ -143,7 +143,8 @@ export default defineConfig({
               items: [
                 { text: 'Overview', link: '/files/devops/laravel/' },
                 { text: 'Laravel on Coolify with Docker', link: '/files/devops/laravel/laravel_on_coolify_with_docker' },
-                { text: 'Laravel on Coolify with Nixpacks', link: '/files/devops/laravel/larvavel_on_coolify_nixpacks' }
+                { text: 'Laravel on Coolify with Nixpacks', link: '/files/devops/laravel/larvavel_on_coolify_nixpacks' },
+                { text: 'Laravel on Vercel', link: '/files/devops/laravel/laravel_on_vercel' }
               ]
             },
             // { text: 'Docker', link: '/files/devops/docker/' },
