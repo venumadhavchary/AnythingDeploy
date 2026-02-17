@@ -12,6 +12,7 @@ Laravel is a powerful PHP framework for building web applications. This section 
 
 - [Laravel on Coolify with Docker](/files/devops/laravel/laravel_on_coolify_with_docker) - Deploy Laravel using Docker containers
 - [Laravel on Coolify with Nixpacks](/files/devops/laravel/larvavel_on_coolify_nixpacks) - Deploy Laravel using Nixpacks
+- [Laravel on Vercel](/files/devops/laravel/laravel_on_vercel) - Deploy Laravel using serverless functions on Vercel
 
 ## What is Laravel?
 
